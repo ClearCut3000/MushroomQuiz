@@ -70,6 +70,7 @@
 		360390DA26F365E600E3BE7F /* MushroomQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				3603910126F9B0C000E3BE7F /* New Group */,
 				360390FF26F9AD3200E3BE7F /* Screenshots */,
 				360390F626F53E9900E3BE7F /* App */,
 				360390F426F53E4100E3BE7F /* Models */,
@@ -118,6 +119,13 @@
 				360390E926F365EB00E3BE7F /* Info.plist */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		3603910126F9B0C000E3BE7F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
