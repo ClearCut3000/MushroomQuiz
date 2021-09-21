@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		360390DC26F365E600E3BE7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390DB26F365E600E3BE7F /* AppDelegate.swift */; };
 		360390DE26F365E600E3BE7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390DD26F365E600E3BE7F /* SceneDelegate.swift */; };
-		360390E026F365E600E3BE7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390DF26F365E600E3BE7F /* ViewController.swift */; };
+		360390E026F365E600E3BE7F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390DF26F365E600E3BE7F /* WelcomeViewController.swift */; };
 		360390E326F365E600E3BE7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360390E126F365E600E3BE7F /* Main.storyboard */; };
 		360390E526F365EB00E3BE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360390E426F365EB00E3BE7F /* Assets.xcassets */; };
 		360390E826F365EB00E3BE7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360390E626F365EB00E3BE7F /* LaunchScreen.storyboard */; };
+		360390F126F3677E00E3BE7F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390F026F3677E00E3BE7F /* QuestionViewController.swift */; };
+		360390F326F3678F00E3BE7F /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390F226F3678F00E3BE7F /* ResultsViewController.swift */; };
+		360390F826F53FE600E3BE7F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390F726F53FE600E3BE7F /* Question.swift */; };
+		360390FA26F5402400E3BE7F /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390F926F5402400E3BE7F /* Answer.swift */; };
+		360390FC26F5404700E3BE7F /* MushroomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390FB26F5404700E3BE7F /* MushroomType.swift */; };
+		360390FE26F5407B00E3BE7F /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360390FD26F5407B00E3BE7F /* ResponseType.swift */; };
+		3603910026F9AD3200E3BE7F /* Screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 360390FF26F9AD3200E3BE7F /* Screenshots */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		360390D826F365E600E3BE7F /* MushroomQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MushroomQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		360390DB26F365E600E3BE7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		360390DD26F365E600E3BE7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		360390DF26F365E600E3BE7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		360390DF26F365E600E3BE7F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		360390E226F365E600E3BE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		360390E426F365EB00E3BE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360390E726F365EB00E3BE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		360390E926F365EB00E3BE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360390F026F3677E00E3BE7F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		360390F226F3678F00E3BE7F /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		360390F726F53FE600E3BE7F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		360390F926F5402400E3BE7F /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		360390FB26F5404700E3BE7F /* MushroomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MushroomType.swift; sourceTree = "<group>"; };
+		360390FD26F5407B00E3BE7F /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		360390FF26F9AD3200E3BE7F /* Screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screenshots; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		360390DA26F365E600E3BE7F /* MushroomQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				360390DB26F365E600E3BE7F /* AppDelegate.swift */,
-				360390DD26F365E600E3BE7F /* SceneDelegate.swift */,
-				360390DF26F365E600E3BE7F /* ViewController.swift */,
-				360390E126F365E600E3BE7F /* Main.storyboard */,
-				360390E426F365EB00E3BE7F /* Assets.xcassets */,
-				360390E626F365EB00E3BE7F /* LaunchScreen.storyboard */,
-				360390E926F365EB00E3BE7F /* Info.plist */,
+				360390FF26F9AD3200E3BE7F /* Screenshots */,
+				360390F626F53E9900E3BE7F /* App */,
+				360390F426F53E4100E3BE7F /* Models */,
+				360390F526F53E7300E3BE7F /* View */,
+				360390EF26F3675400E3BE7F /* ViewControllers */,
 			);
 			path = MushroomQuiz;
+			sourceTree = "<group>";
+		};
+		360390EF26F3675400E3BE7F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				360390DF26F365E600E3BE7F /* WelcomeViewController.swift */,
+				360390F026F3677E00E3BE7F /* QuestionViewController.swift */,
+				360390F226F3678F00E3BE7F /* ResultsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		360390F426F53E4100E3BE7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				360390F726F53FE600E3BE7F /* Question.swift */,
+				360390F926F5402400E3BE7F /* Answer.swift */,
+				360390FB26F5404700E3BE7F /* MushroomType.swift */,
+				360390FD26F5407B00E3BE7F /* ResponseType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		360390F526F53E7300E3BE7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				360390E126F365E600E3BE7F /* Main.storyboard */,
+				360390E626F365EB00E3BE7F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		360390F626F53E9900E3BE7F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				360390DD26F365E600E3BE7F /* SceneDelegate.swift */,
+				360390DB26F365E600E3BE7F /* AppDelegate.swift */,
+				360390E426F365EB00E3BE7F /* Assets.xcassets */,
+				360390E926F365EB00E3BE7F /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3603910026F9AD3200E3BE7F /* Screenshots in Resources */,
 				360390E826F365EB00E3BE7F /* LaunchScreen.storyboard in Resources */,
 				360390E526F365EB00E3BE7F /* Assets.xcassets in Resources */,
 				360390E326F365E600E3BE7F /* Main.storyboard in Resources */,
@@ -137,8 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360390E026F365E600E3BE7F /* ViewController.swift in Sources */,
+				360390F326F3678F00E3BE7F /* ResultsViewController.swift in Sources */,
+				360390FC26F5404700E3BE7F /* MushroomType.swift in Sources */,
+				360390FE26F5407B00E3BE7F /* ResponseType.swift in Sources */,
+				360390E026F365E600E3BE7F /* WelcomeViewController.swift in Sources */,
 				360390DC26F365E600E3BE7F /* AppDelegate.swift in Sources */,
+				360390FA26F5402400E3BE7F /* Answer.swift in Sources */,
+				360390F826F53FE600E3BE7F /* Question.swift in Sources */,
+				360390F126F3677E00E3BE7F /* QuestionViewController.swift in Sources */,
 				360390DE26F365E600E3BE7F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7JF497NG;
-				INFOPLIST_FILE = MushroomQuiz/Info.plist;
+				INFOPLIST_FILE = MushroomQuiz/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ7JF497NG;
-				INFOPLIST_FILE = MushroomQuiz/Info.plist;
+				INFOPLIST_FILE = MushroomQuiz/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
